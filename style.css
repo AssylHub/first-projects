@@ -1,0 +1,158 @@
+
+body {
+    font-family: Montserrat;
+    box-sizing: content-box;
+}
+.index {
+    .container {
+        max-width: 1920px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .header {
+    
+        
+        padding: 30px 0;
+        background-color: yellow;
+        text-align: center;
+        font-size: 25px;
+            
+        }
+        .header a{
+            text-decoration: none;
+            padding: 0 50px 0 0;
+        }
+        .mainphoto {
+        margin-bottom: 100px;
+    }
+    .footer {
+        padding: 30px 0;
+        background-color: rgb(121, 62, 62);
+        text-align: center;
+        font-size: 25px;
+    }
+        .footer a{
+            text-decoration: none;
+            padding: 0 50px 0 0;
+        }
+
+        .footer img {
+            width: 30px;
+            padding-right: 50px;
+        }
+    }
+
+
+.about {
+
+
+    table, tr, td, th{
+        border: 1px black solid;
+        border-collapse: collapse;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        height: 200px;
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 10px double 
+    }
+}
+
+.contact {
+
+    
+
+    
+        
+    .container {
+        width: 1028px;
+        margin: 0 auto;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+
+        
+    }
+
+    .title {
+        /* text-align: center; */
+        font-size: 50px;
+    }
+
+    legend {
+        text-align: center;
+    }
+}
+
+.content {
+    width: 800px;
+    height: 400px;
+}
+
+.content .photo {
+    display: inline;
+    margin-right: 50px;
+}
+
+.content .photo img {
+    border-radius: 100%;
+    margin: 30px 0 0 30px;
+    border: 10px double purple
+}
+
+.content .follow {
+    display: inline-block;
+    width: 400px;
+    padding: 50px 0;
+    text-align: center;
+    vertical-align: top;
+
+    
+}
+
+.content .follow .info ul li {
+    display: block;
+    margin-top: 15px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.images {
+   
+    width: 1000px;
+}
+
+.images img {
+    padding: 10px;
+    width: 310px;
+}
+
+.block ul li {
+    display: block;
+    text-decoration: none;
+}
+
+.block span {
+    margin-left: 20px;
+}
+
+.download a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px 36px;
+}
